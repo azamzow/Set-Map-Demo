@@ -2,7 +2,7 @@
 
 ### Description
 
-This program emonstrates working with Sets and Maps in java. It utilizes a Hast set/map, a Tree set/map, and a Linked set/map.  
+This program demonstrates working with Sets and Maps in java. It utilizes a Hast set/map, a Tree set/map, and a Linked set/map.  
 
 ### To Run
 
