@@ -2,7 +2,14 @@
 
 ### Description
 
-This program demonstrates working with Sets and Maps in java. It utilizes a Hast set/map, a Tree set/map, and a Linked set/map.  
+This program demonstrates working with Sets and Maps in java. It utilizes the following:
+
+  1) Hast set: extends AbstractSet and implements the Set interface. It creates a collection that uses a hash table for storage.
+  2) Hash map: offers 0(1) lookup and insertion. If you iterate through the keys, though, the ordering of the keys is essentially arbitrary. It is implemented by an array of linked lists.
+  3) Tree set: is basically implementation of a self-balancing binary search tree like Red-Black Tree.
+  4) Tree map: offers O(log N) lookup and insertion. Keys are ordered, so if you need to iterate through the keys in sorted order, you can. This means that keys must implement the Comparable interface. TreeMap is implemented by a Red-Black Tree.
+  5) Linked set: is a linear data structure. Unlike arrays, linked set elements are not stored at contiguous location; the elements are linked using pointers.
+  6) Linked map: offers 0(1) lookup and insertion. Keys are ordered by their insertion order. It is implemented by doubly-linked buckets
 
 ### To Run
 
